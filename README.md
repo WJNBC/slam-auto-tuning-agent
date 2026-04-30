@@ -69,8 +69,6 @@ slam-auto-tuning-agent/
 │   └── example_usage.py
 ├── tests/                 # Unit tests
 │   └── test_agents.py
-├── docs/                  # Documentation
-│   └── README.md
 ├── requirements.txt       # Dependencies
 ├── README.md             # This file
 └── LICENSE               # License information
