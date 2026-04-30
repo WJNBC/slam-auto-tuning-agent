@@ -155,7 +155,7 @@ Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
 
 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Apache License - see the LICENSE file for details.
 
 Inspired by research in autonomous navigation and SLAM optimization
 Built with scikit-learn, numpy, scipy, and other excellent open-source libraries
