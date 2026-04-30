@@ -156,9 +156,6 @@ Open a Pull Request
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-📞 Support
-For support, please open an issue on GitHub or contact [your-email@example.com].
-🙏 Acknowledgments
 
 Inspired by research in autonomous navigation and SLAM optimization
 Built with scikit-learn, numpy, scipy, and other excellent open-source libraries
