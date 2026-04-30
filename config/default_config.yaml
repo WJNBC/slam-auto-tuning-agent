@@ -1,0 +1,36 @@
+# config.yaml
+slam_systems:
+  lio_sam:
+    mapping_process_noise: [0.001, 0.1]
+    mapping_measurement_noise: [0.001, 0.1]
+    imu_process_noise: [0.0001, 0.01]
+    feature_extraction_threshold: [0.1, 1.0]
+    registration_fitness_score: [0.1, 0.9]
+    convergence_epsilon: [1e-6, 1e-3]
+
+  orb_slam:
+    max_features: [500, 2000]
+    scale_factor: [1.1, 1.4]
+    levels: [3, 8]
+    ini_th_fast: [10, 20]
+    min_th_fast: [5, 15]
+    match_ratio_test: [0.6, 0.8]
+
+environments:
+  - low_texture_indoor
+  - high_dynamic_lighting
+  - complex_geometry
+  - dynamic_environment
+  - rich_feature_outdoor
+  - general_indoor
+
+optimization:
+  max_iterations: 20
+  initial_samples: 10
+  exploration_factor: 0.01
+  validation_threshold: 0.7
+
+validation:
+  rmse_position_threshold: 0.3
+  tracking_success_rate_threshold: 0.85
+  processing_time_threshold: 0.05
